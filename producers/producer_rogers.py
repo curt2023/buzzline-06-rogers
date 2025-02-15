@@ -1,5 +1,5 @@
 """
-producer_case.py
+producer_rogers.py
 
 Stream JSON data to a file and - if available - a Kafka topic.
 
@@ -89,7 +89,7 @@ def generate_messages():
         action = random.choice(ACTIONS)
         topic = random.choice(TOPICS)
         author = random.choice(AUTHORS)
-        message_text = f"I just {action} {topic}! It was {adjective}."
+        message_text = f"I watched {action} {topic}! It was {adjective}."
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
         # Find category based on keywords

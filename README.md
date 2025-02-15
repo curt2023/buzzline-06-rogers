@@ -1,6 +1,5 @@
-# buzzline-05-rogers
-In this example project, we incorporate a relational data store. 
-We use SQLite, but the example could be altered to work with MySQL, PostgreSQL, or MongoDB.
+# buzzline-06-rogers
+
 
 ## VS Code Extensions
 
@@ -15,10 +14,7 @@ We use SQLite, but the example could be altered to work with MySQL, PostgreSQL, 
 - WSL by Microsoft (on Windows Machines)
 
 ## Task 1. Create and activate a .venv
-Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/docs/MANAGE-VENV.md) to:
-1. Create a .venv
-2. Activate .venv
-3. Install the required dependencies using requirements.txt.
+
 
 
 ## Task 2. Start Zookeeper and Kafka (Takes 2 Terminals)
@@ -40,13 +36,7 @@ This will take two more terminals:
 
 ### Custom Consumer
 
-The goal of my custom consumer is to use Kafka to take the data presented in the producer_case.py file and process it into an SQLite database. 
 
-This data will be stored as streamed messages table, and a sentiment_per_category table. 
-
-The sentiment_per_category table will be used to feed a visual that will display the average sentiment for each category.
-
-Follow the steps below to execute the code and see if it works.
 
 ### Producer (Terminal 3) 
 
@@ -62,13 +52,13 @@ Windows:
 
 ```shell
 .venv\Scripts\activate
-py -m producers.producer_case
+py -m producers.producer_rogers
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
-python3 -m producers.producer_case
+python3 -m producers.producer_rogers
 ```
 
 The producer will still work if Kafka is not available.
@@ -103,11 +93,7 @@ python3 -m consumers.file_consumer_case
 
 ## Summary
 
-This project was a fun an challenging project to work on. My main goal was to use the Kafka streaming data to create a visual showing the average sentiment per category. 
-I was able to accomplish this. During execution of this project I also worked towards storing the data in a Mongo DB database. 
-I was also able to complete this task but it was significantly harder with the streaming data. I am not exactly sure why. It will take more practice.
 
-All in all i enjoyed this project!!
  
 
 ## License

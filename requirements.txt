@@ -85,6 +85,7 @@ wheel
 # Easy logging for monitoring code execution
 loguru
 
+
 # Environment variables management
 python-dotenv
 
@@ -99,7 +100,7 @@ kafka-python-ng
 pymongo
 tabulate
 matplotlib
-
+requests
 
 # ======================================================
 # DATABASE INTEGRATION 
