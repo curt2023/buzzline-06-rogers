@@ -1,91 +1,209 @@
-{"message": "I just tried travel! It was weird.", "author": "Alice", "timestamp": "2025-02-14 08:26:45", "category": "travel", "sentiment": 0.35, "keyword_mentioned": "travel", "message_length": 34}
-{"message": "I just found recipe! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:26:50", "category": "food", "sentiment": 0.97, "keyword_mentioned": "recipe", "message_length": 35}
-{"message": "I just shared recipe! It was funny.", "author": "Eve", "timestamp": "2025-02-14 08:26:55", "category": "food", "sentiment": 0.03, "keyword_mentioned": "recipe", "message_length": 35}
-{"message": "I just tried Python! It was weird.", "author": "Alice", "timestamp": "2025-02-14 08:27:00", "category": "tech", "sentiment": 0.62, "keyword_mentioned": "Python", "message_length": 34}
-{"message": "I just loved a movie! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:27:05", "category": "entertainment", "sentiment": 0.63, "keyword_mentioned": "movie", "message_length": 35}
-{"message": "I just loved Python! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:27:10", "category": "tech", "sentiment": 0.85, "keyword_mentioned": "Python", "message_length": 34}
-{"message": "I just shared a story! It was weird.", "author": "Bob", "timestamp": "2025-02-14 08:27:15", "category": "other", "sentiment": 0.86, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just saw a story! It was exciting.", "author": "Alice", "timestamp": "2025-02-14 08:27:20", "category": "other", "sentiment": 0.43, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just found a movie! It was exciting.", "author": "Alice", "timestamp": "2025-02-14 08:27:25", "category": "entertainment", "sentiment": 0.6, "keyword_mentioned": "movie", "message_length": 38}
-{"message": "I just saw Python! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:27:30", "category": "tech", "sentiment": 0.52, "keyword_mentioned": "Python", "message_length": 32}
-{"message": "I just shared recipe! It was amazing.", "author": "Bob", "timestamp": "2025-02-14 08:27:35", "category": "food", "sentiment": 0.12, "keyword_mentioned": "recipe", "message_length": 37}
-{"message": "I just found travel! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:27:40", "category": "travel", "sentiment": 0.39, "keyword_mentioned": "travel", "message_length": 34}
-{"message": "I just tried Python! It was weird.", "author": "Charlie", "timestamp": "2025-02-14 08:27:45", "category": "tech", "sentiment": 0.13, "keyword_mentioned": "Python", "message_length": 34}
-{"message": "I just tried a story! It was exciting.", "author": "Bob", "timestamp": "2025-02-14 08:27:50", "category": "other", "sentiment": 0.48, "keyword_mentioned": "other", "message_length": 38}
-{"message": "I just saw a story! It was funny.", "author": "Charlie", "timestamp": "2025-02-14 08:27:55", "category": "other", "sentiment": 0.41, "keyword_mentioned": "other", "message_length": 33}
-{"message": "I just shared JavaScript! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:28:00", "category": "tech", "sentiment": 0.58, "keyword_mentioned": "JavaScript", "message_length": 42}
-{"message": "I just loved recipe! It was exciting.", "author": "Alice", "timestamp": "2025-02-14 08:28:05", "category": "food", "sentiment": 0.32, "keyword_mentioned": "recipe", "message_length": 37}
-{"message": "I just tried Python! It was exciting.", "author": "Bob", "timestamp": "2025-02-14 08:28:10", "category": "tech", "sentiment": 0.48, "keyword_mentioned": "Python", "message_length": 37}
-{"message": "I just saw a meme! It was weird.", "author": "Alice", "timestamp": "2025-02-14 08:28:15", "category": "humor", "sentiment": 0.95, "keyword_mentioned": "meme", "message_length": 32}
-{"message": "I just shared Python! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:28:20", "category": "tech", "sentiment": 0.83, "keyword_mentioned": "Python", "message_length": 35}
-{"message": "I just shared travel! It was exciting.", "author": "Bob", "timestamp": "2025-02-14 08:28:25", "category": "travel", "sentiment": 0.0, "keyword_mentioned": "travel", "message_length": 38}
-{"message": "I just found an app! It was boring.", "author": "Bob", "timestamp": "2025-02-14 08:28:30", "category": "other", "sentiment": 0.52, "keyword_mentioned": "other", "message_length": 35}
-{"message": "I just tried a story! It was amazing.", "author": "Alice", "timestamp": "2025-02-14 08:28:35", "category": "other", "sentiment": 1.0, "keyword_mentioned": "other", "message_length": 37}
-{"message": "I just found a trick! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:28:40", "category": "other", "sentiment": 0.08, "keyword_mentioned": "other", "message_length": 35}
-{"message": "I just shared an app! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:28:45", "category": "other", "sentiment": 0.37, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just tried travel! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:28:50", "category": "travel", "sentiment": 1.0, "keyword_mentioned": "travel", "message_length": 34}
-{"message": "I just saw a movie! It was exciting.", "author": "Alice", "timestamp": "2025-02-14 08:28:55", "category": "entertainment", "sentiment": 0.95, "keyword_mentioned": "movie", "message_length": 36}
-{"message": "I just tried JavaScript! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:29:00", "category": "tech", "sentiment": 0.99, "keyword_mentioned": "JavaScript", "message_length": 39}
-{"message": "I just saw a trick! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:29:05", "category": "other", "sentiment": 0.58, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just saw a meme! It was boring.", "author": "Charlie", "timestamp": "2025-02-14 08:29:10", "category": "humor", "sentiment": 0.85, "keyword_mentioned": "meme", "message_length": 33}
-{"message": "I just loved game! It was boring.", "author": "Alice", "timestamp": "2025-02-14 08:29:15", "category": "gaming", "sentiment": 0.65, "keyword_mentioned": "game", "message_length": 33}
-{"message": "I just found travel! It was exciting.", "author": "Eve", "timestamp": "2025-02-14 08:29:20", "category": "travel", "sentiment": 0.95, "keyword_mentioned": "travel", "message_length": 37}
-{"message": "I just loved JavaScript! It was weird.", "author": "Bob", "timestamp": "2025-02-14 08:29:25", "category": "tech", "sentiment": 0.51, "keyword_mentioned": "JavaScript", "message_length": 38}
-{"message": "I just loved recipe! It was exciting.", "author": "Eve", "timestamp": "2025-02-14 08:29:30", "category": "food", "sentiment": 0.77, "keyword_mentioned": "recipe", "message_length": 37}
-{"message": "I just tried JavaScript! It was amazing.", "author": "Charlie", "timestamp": "2025-02-14 08:29:35", "category": "tech", "sentiment": 0.91, "keyword_mentioned": "JavaScript", "message_length": 40}
-{"message": "I just shared travel! It was amazing.", "author": "Bob", "timestamp": "2025-02-14 08:29:40", "category": "travel", "sentiment": 0.04, "keyword_mentioned": "travel", "message_length": 37}
-{"message": "I just loved game! It was funny.", "author": "Alice", "timestamp": "2025-02-14 08:29:45", "category": "gaming", "sentiment": 0.3, "keyword_mentioned": "game", "message_length": 32}
-{"message": "I just loved a movie! It was funny.", "author": "Charlie", "timestamp": "2025-02-14 08:29:51", "category": "entertainment", "sentiment": 0.84, "keyword_mentioned": "movie", "message_length": 35}
-{"message": "I just saw Python! It was amazing.", "author": "Alice", "timestamp": "2025-02-14 08:29:56", "category": "tech", "sentiment": 0.19, "keyword_mentioned": "Python", "message_length": 34}
-{"message": "I just saw recipe! It was weird.", "author": "Bob", "timestamp": "2025-02-14 08:30:01", "category": "food", "sentiment": 0.11, "keyword_mentioned": "recipe", "message_length": 32}
-{"message": "I just found travel! It was amazing.", "author": "Alice", "timestamp": "2025-02-14 08:30:06", "category": "travel", "sentiment": 0.14, "keyword_mentioned": "travel", "message_length": 36}
-{"message": "I just saw a meme! It was weird.", "author": "Alice", "timestamp": "2025-02-14 08:30:11", "category": "humor", "sentiment": 0.27, "keyword_mentioned": "meme", "message_length": 32}
-{"message": "I just tried Python! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:30:16", "category": "tech", "sentiment": 0.84, "keyword_mentioned": "Python", "message_length": 37}
-{"message": "I just shared an app! It was boring.", "author": "Bob", "timestamp": "2025-02-14 08:30:21", "category": "other", "sentiment": 0.65, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just saw JavaScript! It was boring.", "author": "Alice", "timestamp": "2025-02-14 08:30:26", "category": "tech", "sentiment": 0.03, "keyword_mentioned": "JavaScript", "message_length": 37}
-{"message": "I just saw recipe! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:30:31", "category": "food", "sentiment": 0.48, "keyword_mentioned": "recipe", "message_length": 35}
-{"message": "I just found JavaScript! It was funny.", "author": "Charlie", "timestamp": "2025-02-14 08:30:36", "category": "tech", "sentiment": 0.19, "keyword_mentioned": "JavaScript", "message_length": 38}
-{"message": "I just found game! It was exciting.", "author": "Bob", "timestamp": "2025-02-14 08:30:41", "category": "gaming", "sentiment": 0.5, "keyword_mentioned": "game", "message_length": 35}
-{"message": "I just tried game! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:30:46", "category": "gaming", "sentiment": 0.96, "keyword_mentioned": "game", "message_length": 32}
-{"message": "I just shared travel! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:30:51", "category": "travel", "sentiment": 0.93, "keyword_mentioned": "travel", "message_length": 38}
-{"message": "I just shared JavaScript! It was boring.", "author": "Alice", "timestamp": "2025-02-14 08:30:56", "category": "tech", "sentiment": 0.29, "keyword_mentioned": "JavaScript", "message_length": 40}
-{"message": "I just shared recipe! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:31:01", "category": "food", "sentiment": 0.88, "keyword_mentioned": "recipe", "message_length": 35}
-{"message": "I just tried an app! It was amazing.", "author": "Bob", "timestamp": "2025-02-14 08:31:06", "category": "other", "sentiment": 0.5, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just shared JavaScript! It was funny.", "author": "Alice", "timestamp": "2025-02-14 08:31:11", "category": "tech", "sentiment": 0.68, "keyword_mentioned": "JavaScript", "message_length": 39}
-{"message": "I just loved a meme! It was boring.", "author": "Bob", "timestamp": "2025-02-14 08:31:16", "category": "humor", "sentiment": 0.26, "keyword_mentioned": "meme", "message_length": 35}
-{"message": "I just shared game! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:31:21", "category": "gaming", "sentiment": 0.88, "keyword_mentioned": "game", "message_length": 33}
-{"message": "I just found a trick! It was funny.", "author": "Alice", "timestamp": "2025-02-14 08:31:26", "category": "other", "sentiment": 0.19, "keyword_mentioned": "other", "message_length": 35}
-{"message": "I just found Python! It was amazing.", "author": "Charlie", "timestamp": "2025-02-14 08:31:31", "category": "tech", "sentiment": 0.53, "keyword_mentioned": "Python", "message_length": 36}
-{"message": "I just tried a trick! It was boring.", "author": "Alice", "timestamp": "2025-02-14 08:31:36", "category": "other", "sentiment": 0.91, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just loved an app! It was weird.", "author": "Charlie", "timestamp": "2025-02-14 08:31:41", "category": "other", "sentiment": 0.99, "keyword_mentioned": "other", "message_length": 34}
-{"message": "I just found JavaScript! It was weird.", "author": "Charlie", "timestamp": "2025-02-14 08:31:46", "category": "tech", "sentiment": 0.14, "keyword_mentioned": "JavaScript", "message_length": 38}
-{"message": "I just saw Python! It was weird.", "author": "Charlie", "timestamp": "2025-02-14 08:31:51", "category": "tech", "sentiment": 0.61, "keyword_mentioned": "Python", "message_length": 32}
-{"message": "I just saw travel! It was amazing.", "author": "Eve", "timestamp": "2025-02-14 08:31:56", "category": "travel", "sentiment": 0.43, "keyword_mentioned": "travel", "message_length": 34}
-{"message": "I just saw a story! It was exciting.", "author": "Bob", "timestamp": "2025-02-14 08:32:01", "category": "other", "sentiment": 0.51, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just shared a movie! It was exciting.", "author": "Bob", "timestamp": "2025-02-14 08:32:06", "category": "entertainment", "sentiment": 0.17, "keyword_mentioned": "movie", "message_length": 39}
-{"message": "I just found travel! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:32:11", "category": "travel", "sentiment": 0.05, "keyword_mentioned": "travel", "message_length": 34}
-{"message": "I just tried recipe! It was exciting.", "author": "Eve", "timestamp": "2025-02-14 08:32:16", "category": "food", "sentiment": 0.4, "keyword_mentioned": "recipe", "message_length": 37}
-{"message": "I just shared a trick! It was amazing.", "author": "Charlie", "timestamp": "2025-02-14 08:32:21", "category": "other", "sentiment": 0.2, "keyword_mentioned": "other", "message_length": 38}
-{"message": "I just found an app! It was boring.", "author": "Alice", "timestamp": "2025-02-14 08:32:26", "category": "other", "sentiment": 0.74, "keyword_mentioned": "other", "message_length": 35}
-{"message": "I just found a movie! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:32:31", "category": "entertainment", "sentiment": 0.43, "keyword_mentioned": "movie", "message_length": 38}
-{"message": "I just tried Python! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:32:36", "category": "tech", "sentiment": 0.21, "keyword_mentioned": "Python", "message_length": 34}
-{"message": "I just found a story! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:32:41", "category": "other", "sentiment": 0.13, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just loved a trick! It was weird.", "author": "Alice", "timestamp": "2025-02-14 08:32:46", "category": "other", "sentiment": 0.04, "keyword_mentioned": "other", "message_length": 35}
-{"message": "I just found a movie! It was funny.", "author": "Eve", "timestamp": "2025-02-14 08:32:51", "category": "entertainment", "sentiment": 0.87, "keyword_mentioned": "movie", "message_length": 35}
-{"message": "I just saw a trick! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:32:56", "category": "other", "sentiment": 0.23, "keyword_mentioned": "other", "message_length": 34}
-{"message": "I just loved recipe! It was amazing.", "author": "Bob", "timestamp": "2025-02-14 08:33:01", "category": "food", "sentiment": 0.08, "keyword_mentioned": "recipe", "message_length": 36}
-{"message": "I just found an app! It was amazing.", "author": "Bob", "timestamp": "2025-02-14 08:33:06", "category": "other", "sentiment": 0.92, "keyword_mentioned": "other", "message_length": 36}
-{"message": "I just found game! It was funny.", "author": "Charlie", "timestamp": "2025-02-14 08:33:11", "category": "gaming", "sentiment": 0.54, "keyword_mentioned": "game", "message_length": 32}
-{"message": "I just found an app! It was funny.", "author": "Charlie", "timestamp": "2025-02-14 08:33:16", "category": "other", "sentiment": 0.85, "keyword_mentioned": "other", "message_length": 34}
-{"message": "I just found game! It was weird.", "author": "Alice", "timestamp": "2025-02-14 08:33:21", "category": "gaming", "sentiment": 0.58, "keyword_mentioned": "game", "message_length": 32}
-{"message": "I just saw a story! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:33:26", "category": "other", "sentiment": 0.66, "keyword_mentioned": "other", "message_length": 33}
-{"message": "I just shared a meme! It was boring.", "author": "Charlie", "timestamp": "2025-02-14 08:33:31", "category": "humor", "sentiment": 0.58, "keyword_mentioned": "meme", "message_length": 36}
-{"message": "I just shared a trick! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:33:36", "category": "other", "sentiment": 0.08, "keyword_mentioned": "other", "message_length": 37}
-{"message": "I just saw recipe! It was exciting.", "author": "Charlie", "timestamp": "2025-02-14 08:33:41", "category": "food", "sentiment": 0.74, "keyword_mentioned": "recipe", "message_length": 35}
-{"message": "I just saw travel! It was amazing.", "author": "Eve", "timestamp": "2025-02-14 08:33:46", "category": "travel", "sentiment": 0.35, "keyword_mentioned": "travel", "message_length": 34}
-{"message": "I just shared Python! It was boring.", "author": "Eve", "timestamp": "2025-02-14 08:33:51", "category": "tech", "sentiment": 0.3, "keyword_mentioned": "Python", "message_length": 36}
-{"message": "I just saw an app! It was weird.", "author": "Bob", "timestamp": "2025-02-14 08:33:56", "category": "other", "sentiment": 0.61, "keyword_mentioned": "other", "message_length": 32}
-{"message": "I just tried recipe! It was boring.", "author": "Alice", "timestamp": "2025-02-14 08:34:01", "category": "food", "sentiment": 0.51, "keyword_mentioned": "recipe", "message_length": 35}
-{"message": "I just shared a movie! It was amazing.", "author": "Bob", "timestamp": "2025-02-14 08:34:06", "category": "entertainment", "sentiment": 0.72, "keyword_mentioned": "movie", "message_length": 38}
-{"message": "I just saw travel! It was funny.", "author": "Bob", "timestamp": "2025-02-14 08:34:11", "category": "travel", "sentiment": 0.69, "keyword_mentioned": "travel", "message_length": 32}
-{"message": "I just found a movie! It was weird.", "author": "Eve", "timestamp": "2025-02-14 08:34:16", "category": "entertainment", "sentiment": 0.61, "keyword_mentioned": "movie", "message_length": 35}
+{"title": "Stronger,  Masters of the Code", "message": "Horrible film", "critic": "Sally", "timestamp": "2025-02-16 12:56:41", "genre": "Action", "sentiment": 0.8, "message_length": 13}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Would watch again", "critic": "Tilly", "timestamp": "2025-02-16 12:56:46", "genre": "Sci-Fi", "sentiment": 0.04, "message_length": 17}
+{"title": "Clear as Mud:  A kafka Story", "message": "This was the best movie I have seen", "critic": "Bob", "timestamp": "2025-02-16 12:56:51", "genre": "Romance", "sentiment": 0.42, "message_length": 35}
+{"title": "Untouchable: the Rise of Code", "message": "Movie of the YEAR", "critic": "George", "timestamp": "2025-02-16 12:56:56", "genre": "Romance", "sentiment": 0.45, "message_length": 17}
+{"title": "Stronger,  an Underdog Story", "message": "Life changing", "critic": "Charlie", "timestamp": "2025-02-16 12:57:01", "genre": "Action", "sentiment": 0.51, "message_length": 13}
+{"title": "Stronger,  an Underdog Story", "message": "Horrible film", "critic": "Charlie", "timestamp": "2025-02-16 12:57:06", "genre": "Action", "sentiment": 0.33, "message_length": 13}
+{"title": "Stronger,  A kafka Story", "message": "Would watch again", "critic": "Eve", "timestamp": "2025-02-16 12:57:11", "genre": "Sci-Fi", "sentiment": 0.77, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Great story", "critic": "Eve", "timestamp": "2025-02-16 12:57:16", "genre": "Comdey", "sentiment": 0.11, "message_length": 11}
+{"title": "Stronger,  an Underdog Story", "message": "This was the best movie I have seen", "critic": "Sally", "timestamp": "2025-02-16 12:57:21", "genre": "Romance", "sentiment": 0.71, "message_length": 35}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Would watch again", "critic": "Eve", "timestamp": "2025-02-16 12:57:26", "genre": "Romance", "sentiment": 0.35, "message_length": 17}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Life changing", "critic": "Sally", "timestamp": "2025-02-16 12:57:31", "genre": "Action", "sentiment": 0.79, "message_length": 13}
+{"title": "Python,  an Underdog Story", "message": "Two thumbs way down", "critic": "Sally", "timestamp": "2025-02-16 12:57:36", "genre": "Action", "sentiment": 0.81, "message_length": 19}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Great story", "critic": "Bob", "timestamp": "2025-02-16 12:57:41", "genre": "Romance", "sentiment": 0.91, "message_length": 11}
+{"title": "Stronger,  Masters of the Code", "message": "Life changing", "critic": "George", "timestamp": "2025-02-16 12:57:46", "genre": "Sci-Fi", "sentiment": 0.37, "message_length": 13}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Two thumbs way down", "critic": "Sally", "timestamp": "2025-02-16 12:57:51", "genre": "Romance", "sentiment": 0.88, "message_length": 19}
+{"title": "Clear as Mud:  Masters of the Code", "message": "This movie had me laughing from start to end", "critic": "Charlie", "timestamp": "2025-02-16 12:57:56", "genre": "Sci-Fi", "sentiment": 0.99, "message_length": 44}
+{"title": "Stronger,  an Underdog Story", "message": "Would watch again", "critic": "Eve", "timestamp": "2025-02-16 12:58:01", "genre": "Comdey", "sentiment": 0.77, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "I wish that I could get my money back", "critic": "Frank", "timestamp": "2025-02-16 12:58:06", "genre": "Romance", "sentiment": 0.9, "message_length": 37}
+{"title": "Stronger,  the Rise of Code", "message": "Was a complete waste of time", "critic": "Tilly", "timestamp": "2025-02-16 12:58:11", "genre": "Action", "sentiment": 0.39, "message_length": 28}
+{"title": "Stronger,  the Rise of Code", "message": "This was the best movie I have seen", "critic": "George", "timestamp": "2025-02-16 12:58:16", "genre": "Sci-Fi", "sentiment": 0.94, "message_length": 35}
+{"title": "Untouchable: A kafka Story", "message": "This was the best movie I have seen", "critic": "George", "timestamp": "2025-02-16 12:58:21", "genre": "Sci-Fi", "sentiment": 0.95, "message_length": 35}
+{"title": "Stronger,  Masters of the Code", "message": "This was the best movie I have seen", "critic": "Eve", "timestamp": "2025-02-16 12:58:26", "genre": "Romance", "sentiment": 0.68, "message_length": 35}
+{"title": "Untouchable: an Underdog Story", "message": "Movie of the YEAR", "critic": "Sally", "timestamp": "2025-02-16 12:58:31", "genre": "Sci-Fi", "sentiment": 0.61, "message_length": 17}
+{"title": "Python,  A kafka Story", "message": "Would watch again", "critic": "Sally", "timestamp": "2025-02-16 12:58:36", "genre": "Action", "sentiment": 0.61, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "Life changing", "critic": "Bob", "timestamp": "2025-02-16 12:58:41", "genre": "Sci-Fi", "sentiment": 0.05, "message_length": 13}
+{"title": "Stronger,  an Underdog Story", "message": "Life changing", "critic": "Tilly", "timestamp": "2025-02-16 12:58:46", "genre": "Comdey", "sentiment": 0.09, "message_length": 13}
+{"title": "Stronger,  A kafka Story", "message": "Horrible film", "critic": "George", "timestamp": "2025-02-16 12:58:51", "genre": "Sci-Fi", "sentiment": 0.18, "message_length": 13}
+{"title": "Clear as Mud:  Masters of the Code", "message": "This was the best movie I have seen", "critic": "Frank", "timestamp": "2025-02-16 12:58:56", "genre": "Romance", "sentiment": 0.71, "message_length": 35}
+{"title": "Python,  Masters of the Code", "message": "Movie of the YEAR", "critic": "Eve", "timestamp": "2025-02-16 12:59:01", "genre": "Romance", "sentiment": 0.93, "message_length": 17}
+{"title": "Python,  A kafka Story", "message": "Was a complete waste of time", "critic": "Eve", "timestamp": "2025-02-16 12:59:06", "genre": "Romance", "sentiment": 0.17, "message_length": 28}
+{"title": "Python,  A kafka Story", "message": "Would watch again", "critic": "Sally", "timestamp": "2025-02-16 12:59:11", "genre": "Action", "sentiment": 0.13, "message_length": 17}
+{"title": "Stronger,  Masters of the Code", "message": "two thumbs way up", "critic": "Sally", "timestamp": "2025-02-16 12:59:16", "genre": "Romance", "sentiment": 0.76, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Was a complete waste of time", "critic": "Frank", "timestamp": "2025-02-16 12:59:21", "genre": "Action", "sentiment": 0.49, "message_length": 28}
+{"title": "Python,  A kafka Story", "message": "Horrible film", "critic": "Tilly", "timestamp": "2025-02-16 12:59:26", "genre": "Romance", "sentiment": 0.89, "message_length": 13}
+{"title": "Python,  the Rise of Code", "message": "Movie of the YEAR", "critic": "George", "timestamp": "2025-02-16 12:59:31", "genre": "Sci-Fi", "sentiment": 0.57, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "message": "This movie had me laughing from start to end", "critic": "Bob", "timestamp": "2025-02-16 12:59:36", "genre": "Action", "sentiment": 0.58, "message_length": 44}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Was a complete waste of time", "critic": "Charlie", "timestamp": "2025-02-16 12:59:41", "genre": "Romance", "sentiment": 0.86, "message_length": 28}
+{"title": "Python,  the Rise of Code", "message": "Was a complete waste of time", "critic": "Eve", "timestamp": "2025-02-16 12:59:46", "genre": "Comdey", "sentiment": 0.33, "message_length": 28}
+{"title": "Python,  A kafka Story", "message": "Horrible film", "critic": "Charlie", "timestamp": "2025-02-16 12:59:51", "genre": "Romance", "sentiment": 0.27, "message_length": 13}
+{"title": "Python,  A kafka Story", "message": "I wish that I could get my money back", "critic": "Frank", "timestamp": "2025-02-16 12:59:56", "genre": "Action", "sentiment": 0.16, "message_length": 37}
+{"title": "Python,  Masters of the Code", "message": "Great story", "critic": "Bob", "timestamp": "2025-02-16 13:00:01", "genre": "Comdey", "sentiment": 0.88, "message_length": 11}
+{"title": "Clear as Mud:  Masters of the Code", "message": "two thumbs way up", "critic": "Tilly", "timestamp": "2025-02-16 13:00:06", "genre": "Action", "sentiment": 0.58, "message_length": 17}
+{"title": "Stronger,  A kafka Story", "message": "Life changing", "critic": "Charlie", "timestamp": "2025-02-16 13:00:11", "genre": "Romance", "sentiment": 0.8, "message_length": 13}
+{"title": "Clear as Mud:  A kafka Story", "message": "two thumbs way up", "critic": "George", "timestamp": "2025-02-16 13:00:16", "genre": "Romance", "sentiment": 0.74, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "Horrible film", "critic": "Bob", "timestamp": "2025-02-16 13:00:21", "genre": "Sci-Fi", "sentiment": 0.09, "message_length": 13}
+{"title": "Stronger,  the Rise of Code", "message": "Movie of the YEAR", "critic": "Eve", "timestamp": "2025-02-16 13:00:26", "genre": "Action", "sentiment": 0.01, "message_length": 17}
+{"title": "Untouchable: A kafka Story", "message": "This movie had me laughing from start to end", "critic": "Charlie", "timestamp": "2025-02-16 13:00:31", "genre": "Romance", "sentiment": 0.07, "message_length": 44}
+{"title": "Stronger,  A kafka Story", "message": "Life changing", "critic": "Frank", "timestamp": "2025-02-16 13:00:36", "genre": "Action", "sentiment": 0.21, "message_length": 13}
+{"title": "Python,  Masters of the Code", "message": "This movie had me laughing from start to end", "critic": "George", "timestamp": "2025-02-16 13:00:41", "genre": "Comdey", "sentiment": 0.16, "message_length": 44}
+{"title": "Python,  the Rise of Code", "message": "This was the best movie I have seen", "critic": "Sally", "timestamp": "2025-02-16 13:00:46", "genre": "Sci-Fi", "sentiment": 0.34, "message_length": 35}
+{"title": "Python,  A kafka Story", "message": "I wish that I could get my money back", "critic": "Charlie", "timestamp": "2025-02-16 13:00:51", "genre": "Romance", "sentiment": 0.35, "message_length": 37}
+{"title": "Untouchable: A kafka Story", "message": "Would watch again", "critic": "Charlie", "timestamp": "2025-02-16 13:00:56", "genre": "Romance", "sentiment": 0.07, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "Movie of the YEAR", "critic": "George", "timestamp": "2025-02-16 13:01:01", "genre": "Action", "sentiment": 0.9, "message_length": 17}
+{"title": "Python,  A kafka Story", "message": "Great story", "critic": "Eve", "timestamp": "2025-02-16 13:01:06", "genre": "Sci-Fi", "sentiment": 0.11, "message_length": 11}
+{"title": "Stronger,  an Underdog Story", "message": "Was a complete waste of time", "critic": "Frank", "timestamp": "2025-02-16 13:01:11", "genre": "Romance", "sentiment": 0.85, "message_length": 28}
+{"title": "Clear as Mud:  Masters of the Code", "message": "I wish that I could get my money back", "critic": "Charlie", "timestamp": "2025-02-16 13:01:16", "genre": "Comdey", "sentiment": 0.77, "message_length": 37}
+{"title": "Python,  an Underdog Story", "message": "This was the best movie I have seen", "critic": "Tilly", "timestamp": "2025-02-16 13:01:21", "genre": "Romance", "sentiment": 0.61, "message_length": 35}
+{"title": "Untouchable: an Underdog Story", "message": "Horrible film", "critic": "Tilly", "timestamp": "2025-02-16 13:01:26", "genre": "Romance", "sentiment": 0.19, "message_length": 13}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Life changing", "critic": "Charlie", "timestamp": "2025-02-16 13:01:31", "genre": "Romance", "sentiment": 0.65, "message_length": 13}
+{"title": "Python,  Masters of the Code", "message": "Horrible film", "critic": "Tilly", "timestamp": "2025-02-16 13:01:36", "genre": "Sci-Fi", "sentiment": 0.66, "message_length": 13}
+{"title": "Untouchable: Masters of the Code", "message": "Was a complete waste of time", "critic": "Charlie", "timestamp": "2025-02-16 13:01:41", "genre": "Romance", "sentiment": 0.9, "message_length": 28}
+{"title": "Stronger,  the Rise of Code", "message": "Movie of the YEAR", "critic": "Eve", "timestamp": "2025-02-16 13:01:46", "genre": "Sci-Fi", "sentiment": 0.81, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "This was the best movie I have seen", "critic": "George", "timestamp": "2025-02-16 13:01:51", "genre": "Sci-Fi", "sentiment": 0.27, "message_length": 35}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Horrible film", "critic": "George", "timestamp": "2025-02-16 13:01:56", "genre": "Sci-Fi", "sentiment": 0.28, "message_length": 13}
+{"title": "Stronger,  A kafka Story", "message": "Movie of the YEAR", "critic": "Eve", "timestamp": "2025-02-16 13:02:01", "genre": "Action", "sentiment": 0.29, "message_length": 17}
+{"title": "Python,  the Rise of Code", "message": "Would watch again", "critic": "Bob", "timestamp": "2025-02-16 13:02:07", "genre": "Action", "sentiment": 0.85, "message_length": 17}
+{"title": "Untouchable: Masters of the Code", "message": "Horrible film", "critic": "Bob", "timestamp": "2025-02-16 13:02:12", "genre": "Romance", "sentiment": 0.31, "message_length": 13}
+{"title": "Stronger,  A kafka Story", "message": "Two thumbs way down", "critic": "Sally", "timestamp": "2025-02-16 13:02:17", "genre": "Sci-Fi", "sentiment": 0.31, "message_length": 19}
+{"title": "Stronger,  the Rise of Code", "message": "Movie of the YEAR", "critic": "Eve", "timestamp": "2025-02-16 13:02:22", "genre": "Romance", "sentiment": 0.22, "message_length": 17}
+{"title": "Stronger,  an Underdog Story", "message": "Would watch again", "critic": "Eve", "timestamp": "2025-02-16 13:02:27", "genre": "Sci-Fi", "sentiment": 0.21, "message_length": 17}
+{"title": "Untouchable: Masters of the Code", "message": "Horrible film", "critic": "George", "timestamp": "2025-02-16 13:02:32", "genre": "Comdey", "sentiment": 0.32, "message_length": 13}
+{"title": "Untouchable: A kafka Story", "message": "Would watch again", "critic": "George", "timestamp": "2025-02-16 13:02:37", "genre": "Comdey", "sentiment": 0.24, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "Life changing", "critic": "Sally", "timestamp": "2025-02-16 13:02:42", "genre": "Action", "sentiment": 0.98, "message_length": 13}
+{"title": "Stronger,  an Underdog Story", "message": "Was a complete waste of time", "critic": "Sally", "timestamp": "2025-02-16 13:02:47", "genre": "Romance", "sentiment": 0.98, "message_length": 28}
+{"title": "Stronger,  A kafka Story", "message": "Life changing", "critic": "Charlie", "timestamp": "2025-02-16 13:02:52", "genre": "Comdey", "sentiment": 0.1, "message_length": 13}
+{"title": "Stronger,  Masters of the Code", "message": "Horrible film", "critic": "Bob", "timestamp": "2025-02-16 13:02:57", "genre": "Comdey", "sentiment": 0.76, "message_length": 13}
+{"title": "Untouchable: an Underdog Story", "message": "This was the best movie I have seen", "critic": "Charlie", "timestamp": "2025-02-16 13:03:02", "genre": "Action", "sentiment": 0.8, "message_length": 35}
+{"title": "Untouchable: Masters of the Code", "message": "Would watch again", "critic": "Sally", "timestamp": "2025-02-16 13:03:07", "genre": "Sci-Fi", "sentiment": 0.35, "message_length": 17}
+{"title": "Clear as Mud:  A kafka Story", "message": "Great story", "critic": "Bob", "timestamp": "2025-02-16 13:03:12", "genre": "Comdey", "sentiment": 0.96, "message_length": 11}
+{"title": "Untouchable: Masters of the Code", "message": "Horrible film", "critic": "Tilly", "timestamp": "2025-02-16 13:03:17", "genre": "Action", "sentiment": 0.85, "message_length": 13}
+{"title": "Python,  an Underdog Story", "message": "This was the best movie I have seen", "critic": "Frank", "timestamp": "2025-02-16 13:03:22", "genre": "Sci-Fi", "sentiment": 0.21, "message_length": 35}
+{"title": "Untouchable: A kafka Story", "message": "Two thumbs way down", "critic": "Tilly", "timestamp": "2025-02-16 13:03:27", "genre": "Action", "sentiment": 0.94, "message_length": 19}
+{"title": "Python,  an Underdog Story", "message": "Life changing", "critic": "Sally", "timestamp": "2025-02-16 13:03:32", "genre": "Comdey", "sentiment": 0.12, "message_length": 13}
+{"title": "Stronger,  Masters of the Code", "message": "Horrible film", "critic": "Eve", "timestamp": "2025-02-16 13:03:37", "genre": "Action", "sentiment": 0.69, "message_length": 13}
+{"title": "Python,  A kafka Story", "message": "Movie of the YEAR", "critic": "Tilly", "timestamp": "2025-02-16 13:03:42", "genre": "Comdey", "sentiment": 0.29, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:03:47", "genre": "Romance", "sentiment": 0.34, "message_length": 17}
+{"title": "Python,  the Rise of Code", "message": "two thumbs way up", "critic": "Eve", "timestamp": "2025-02-16 13:03:52", "genre": "Sci-Fi", "sentiment": 0.29, "message_length": 17}
+{"title": "Untouchable: A kafka Story", "message": "Was a complete waste of time", "critic": "George", "timestamp": "2025-02-16 13:03:57", "genre": "Comdey", "sentiment": 0.92, "message_length": 28}
+{"title": "Stronger,  Masters of the Code", "message": "Would watch again", "critic": "Bob", "timestamp": "2025-02-16 13:04:02", "genre": "Romance", "sentiment": 0.91, "message_length": 17}
+{"title": "Python,  an Underdog Story", "message": "Two thumbs way down", "critic": "Tilly", "timestamp": "2025-02-16 13:04:07", "genre": "Romance", "sentiment": 0.62, "message_length": 19}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Was a complete waste of time", "critic": "George", "timestamp": "2025-02-16 13:04:12", "genre": "Romance", "sentiment": 0.04, "message_length": 28}
+{"title": "Python,  A kafka Story", "message": "Horrible film", "critic": "Sally", "timestamp": "2025-02-16 13:04:17", "genre": "Sci-Fi", "sentiment": 0.45, "message_length": 13}
+{"title": "Clear as Mud:  A kafka Story", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:04:22", "genre": "Action", "sentiment": 0.62, "message_length": 17}
+{"title": "Clear as Mud:  A kafka Story", "message": "Horrible film", "critic": "Sally", "timestamp": "2025-02-16 13:04:27", "genre": "Action", "sentiment": 0.2, "message_length": 13}
+{"title": "Clear as Mud:  the Rise of Code", "message": "This movie had me laughing from start to end", "critic": "Bob", "timestamp": "2025-02-16 13:04:32", "genre": "Action", "sentiment": 0.88, "message_length": 44}
+{"title": "Untouchable: Masters of the Code", "message": "Would watch again", "critic": "Tilly", "timestamp": "2025-02-16 13:04:37", "genre": "Sci-Fi", "sentiment": 0.79, "message_length": 17}
+{"title": "Untouchable: an Underdog Story", "message": "Great story", "critic": "Eve", "timestamp": "2025-02-16 13:04:42", "genre": "Comdey", "sentiment": 0.69, "message_length": 11}
+{"title": "Stronger,  A kafka Story", "message": "Would watch again", "critic": "Tilly", "timestamp": "2025-02-16 13:04:47", "genre": "Sci-Fi", "sentiment": 0.73, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Was a complete waste of time", "critic": "George", "timestamp": "2025-02-16 13:04:52", "genre": "Romance", "sentiment": 0.06, "message_length": 28}
+{"title": "Stronger,  A kafka Story", "message": "Movie of the YEAR", "critic": "Sally", "timestamp": "2025-02-16 13:04:57", "genre": "Action", "sentiment": 0.91, "message_length": 17}
+{"title": "Python,  an Underdog Story", "message": "two thumbs way up", "critic": "Bob", "timestamp": "2025-02-16 13:05:02", "genre": "Sci-Fi", "sentiment": 0.65, "message_length": 17}
+{"title": "Untouchable: Masters of the Code", "message": "This was the best movie I have seen", "critic": "George", "timestamp": "2025-02-16 13:05:07", "genre": "Sci-Fi", "sentiment": 0.87, "message_length": 35}
+{"title": "Python,  the Rise of Code", "message": "I wish that I could get my money back", "critic": "Eve", "timestamp": "2025-02-16 13:05:12", "genre": "Action", "sentiment": 0.97, "message_length": 37}
+{"title": "Stronger,  A kafka Story", "message": "This movie had me laughing from start to end", "critic": "Tilly", "timestamp": "2025-02-16 13:05:17", "genre": "Romance", "sentiment": 0.68, "message_length": 44}
+{"title": "Python,  Masters of the Code", "message": "Movie of the YEAR", "critic": "Tilly", "timestamp": "2025-02-16 13:05:22", "genre": "Sci-Fi", "sentiment": 0.83, "message_length": 17}
+{"title": "Stronger,  Masters of the Code", "message": "I wish that I could get my money back", "critic": "Frank", "timestamp": "2025-02-16 13:05:27", "genre": "Romance", "sentiment": 0.28, "message_length": 37}
+{"title": "Clear as Mud:  A kafka Story", "message": "This was the best movie I have seen", "critic": "Charlie", "timestamp": "2025-02-16 13:05:32", "genre": "Sci-Fi", "sentiment": 0.84, "message_length": 35}
+{"title": "Untouchable: Masters of the Code", "message": "This was the best movie I have seen", "critic": "Frank", "timestamp": "2025-02-16 13:05:37", "genre": "Action", "sentiment": 0.47, "message_length": 35}
+{"title": "Untouchable: Masters of the Code", "message": "This was the best movie I have seen", "critic": "George", "timestamp": "2025-02-16 13:05:42", "genre": "Action", "sentiment": 0.16, "message_length": 35}
+{"title": "Untouchable: A kafka Story", "message": "I wish that I could get my money back", "critic": "Sally", "timestamp": "2025-02-16 13:05:47", "genre": "Action", "sentiment": 0.06, "message_length": 37}
+{"title": "Untouchable: an Underdog Story", "message": "Movie of the YEAR", "critic": "Frank", "timestamp": "2025-02-16 13:05:52", "genre": "Romance", "sentiment": 0.25, "message_length": 17}
+{"title": "Clear as Mud:  Masters of the Code", "message": "This movie had me laughing from start to end", "critic": "Eve", "timestamp": "2025-02-16 13:05:57", "genre": "Action", "sentiment": 0.47, "message_length": 44}
+{"title": "Untouchable: A kafka Story", "message": "I wish that I could get my money back", "critic": "Eve", "timestamp": "2025-02-16 13:06:02", "genre": "Romance", "sentiment": 0.04, "message_length": 37}
+{"title": "Stronger,  A kafka Story", "message": "This movie had me laughing from start to end", "critic": "Frank", "timestamp": "2025-02-16 13:06:07", "genre": "Romance", "sentiment": 0.65, "message_length": 44}
+{"title": "Stronger,  an Underdog Story", "message": "two thumbs way up", "critic": "Tilly", "timestamp": "2025-02-16 13:06:12", "genre": "Romance", "sentiment": 0.27, "message_length": 17}
+{"title": "Stronger,  an Underdog Story", "message": "Was a complete waste of time", "critic": "George", "timestamp": "2025-02-16 13:06:17", "genre": "Sci-Fi", "sentiment": 0.27, "message_length": 28}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Two thumbs way down", "critic": "Sally", "timestamp": "2025-02-16 13:06:22", "genre": "Comdey", "sentiment": 0.4, "message_length": 19}
+{"title": "Untouchable: the Rise of Code", "message": "Horrible film", "critic": "George", "timestamp": "2025-02-16 13:06:27", "genre": "Sci-Fi", "sentiment": 0.09, "message_length": 13}
+{"title": "Python,  Masters of the Code", "message": "Two thumbs way down", "critic": "George", "timestamp": "2025-02-16 13:06:32", "genre": "Romance", "sentiment": 0.93, "message_length": 19}
+{"title": "Stronger,  A kafka Story", "message": "Movie of the YEAR", "critic": "Bob", "timestamp": "2025-02-16 13:06:37", "genre": "Comdey", "sentiment": 0.14, "message_length": 17}
+{"title": "Untouchable: an Underdog Story", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:06:42", "genre": "Comdey", "sentiment": 0.31, "message_length": 17}
+{"title": "Clear as Mud:  an Underdog Story", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:06:47", "genre": "Romance", "sentiment": 0.6, "message_length": 17}
+{"title": "Python,  an Underdog Story", "message": "Life changing", "critic": "Eve", "timestamp": "2025-02-16 13:06:52", "genre": "Comdey", "sentiment": 0.53, "message_length": 13}
+{"title": "Python,  A kafka Story", "message": "Horrible film", "critic": "Bob", "timestamp": "2025-02-16 13:06:57", "genre": "Romance", "sentiment": 0.29, "message_length": 13}
+{"title": "Stronger,  an Underdog Story", "message": "Would watch again", "critic": "Eve", "timestamp": "2025-02-16 13:07:02", "genre": "Comdey", "sentiment": 0.77, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Was a complete waste of time", "critic": "Frank", "timestamp": "2025-02-16 13:07:07", "genre": "Romance", "sentiment": 0.81, "message_length": 28}
+{"title": "Python,  an Underdog Story", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:07:12", "genre": "Sci-Fi", "sentiment": 0.06, "message_length": 17}
+{"title": "Stronger,  Masters of the Code", "message": "This was the best movie I have seen", "critic": "George", "timestamp": "2025-02-16 13:07:17", "genre": "Romance", "sentiment": 0.86, "message_length": 35}
+{"title": "Stronger,  Masters of the Code", "message": "Was a complete waste of time", "critic": "Bob", "timestamp": "2025-02-16 13:07:22", "genre": "Action", "sentiment": 0.41, "message_length": 28}
+{"title": "Clear as Mud:  the Rise of Code", "message": "This was the best movie I have seen", "critic": "Eve", "timestamp": "2025-02-16 13:07:27", "genre": "Romance", "sentiment": 0.8, "message_length": 35}
+{"title": "Stronger,  an Underdog Story", "message": "This movie had me laughing from start to end", "critic": "Frank", "timestamp": "2025-02-16 13:07:32", "genre": "Romance", "sentiment": 0.88, "message_length": 44}
+{"title": "Stronger,  Masters of the Code", "message": "Horrible film", "critic": "George", "timestamp": "2025-02-16 13:07:37", "genre": "Comdey", "sentiment": 0.16, "message_length": 13}
+{"title": "Untouchable: the Rise of Code", "message": "Great story", "critic": "Sally", "timestamp": "2025-02-16 13:07:42", "genre": "Action", "sentiment": 0.11, "message_length": 11}
+{"title": "Stronger,  the Rise of Code", "message": "two thumbs way up", "critic": "Eve", "timestamp": "2025-02-16 13:07:47", "genre": "Romance", "sentiment": 0.75, "message_length": 17}
+{"title": "Stronger,  Masters of the Code", "message": "two thumbs way up", "critic": "George", "timestamp": "2025-02-16 13:07:52", "genre": "Action", "sentiment": 0.07, "message_length": 17}
+{"title": "Python,  an Underdog Story", "message": "Movie of the YEAR", "critic": "Charlie", "timestamp": "2025-02-16 13:07:57", "genre": "Sci-Fi", "sentiment": 0.13, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "Great story", "critic": "Charlie", "timestamp": "2025-02-16 13:08:02", "genre": "Sci-Fi", "sentiment": 0.9, "message_length": 11}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Horrible film", "critic": "Bob", "timestamp": "2025-02-16 13:08:07", "genre": "Romance", "sentiment": 0.98, "message_length": 13}
+{"title": "Untouchable: A kafka Story", "message": "Would watch again", "critic": "Bob", "timestamp": "2025-02-16 13:08:12", "genre": "Sci-Fi", "sentiment": 0.49, "message_length": 17}
+{"title": "Stronger,  A kafka Story", "message": "Movie of the YEAR", "critic": "Frank", "timestamp": "2025-02-16 13:08:17", "genre": "Sci-Fi", "sentiment": 0.5, "message_length": 17}
+{"title": "Python,  the Rise of Code", "message": "I wish that I could get my money back", "critic": "Charlie", "timestamp": "2025-02-16 13:08:22", "genre": "Romance", "sentiment": 0.38, "message_length": 37}
+{"title": "Untouchable: an Underdog Story", "message": "Horrible film", "critic": "Frank", "timestamp": "2025-02-16 13:08:27", "genre": "Romance", "sentiment": 0.25, "message_length": 13}
+{"title": "Untouchable: A kafka Story", "message": "Would watch again", "critic": "Charlie", "timestamp": "2025-02-16 13:08:32", "genre": "Action", "sentiment": 0.75, "message_length": 17}
+{"title": "Stronger,  an Underdog Story", "message": "This movie had me laughing from start to end", "critic": "Eve", "timestamp": "2025-02-16 13:08:37", "genre": "Comdey", "sentiment": 0.67, "message_length": 44}
+{"title": "Untouchable: Masters of the Code", "message": "Horrible film", "critic": "George", "timestamp": "2025-02-16 13:08:42", "genre": "Romance", "sentiment": 0.87, "message_length": 13}
+{"title": "Stronger,  A kafka Story", "message": "Would watch again", "critic": "George", "timestamp": "2025-02-16 13:08:47", "genre": "Comdey", "sentiment": 0.86, "message_length": 17}
+{"title": "Stronger,  Masters of the Code", "message": "Would watch again", "critic": "Frank", "timestamp": "2025-02-16 13:08:52", "genre": "Romance", "sentiment": 0.94, "message_length": 17}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Horrible film", "critic": "Charlie", "timestamp": "2025-02-16 13:08:57", "genre": "Action", "sentiment": 0.9, "message_length": 13}
+{"title": "Stronger,  the Rise of Code", "message": "This movie had me laughing from start to end", "critic": "Frank", "timestamp": "2025-02-16 13:09:02", "genre": "Comdey", "sentiment": 0.6, "message_length": 44}
+{"title": "Python,  an Underdog Story", "message": "This was the best movie I have seen", "critic": "Bob", "timestamp": "2025-02-16 13:09:07", "genre": "Sci-Fi", "sentiment": 0.7, "message_length": 35}
+{"title": "Python,  A kafka Story", "message": "two thumbs way up", "critic": "Bob", "timestamp": "2025-02-16 13:09:12", "genre": "Sci-Fi", "sentiment": 0.54, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "message": "Great story", "critic": "Tilly", "timestamp": "2025-02-16 13:09:17", "genre": "Action", "sentiment": 0.53, "message_length": 11}
+{"title": "Python,  the Rise of Code", "message": "two thumbs way up", "critic": "Bob", "timestamp": "2025-02-16 13:09:22", "genre": "Comdey", "sentiment": 0.28, "message_length": 17}
+{"title": "Untouchable: the Rise of Code", "message": "Would watch again", "critic": "Sally", "timestamp": "2025-02-16 13:09:27", "genre": "Comdey", "sentiment": 0.52, "message_length": 17}
+{"title": "Python,  Masters of the Code", "message": "Two thumbs way down", "critic": "Sally", "timestamp": "2025-02-16 13:09:32", "genre": "Comdey", "sentiment": 0.54, "message_length": 19}
+{"title": "Untouchable: the Rise of Code", "message": "Two thumbs way down", "critic": "Eve", "timestamp": "2025-02-16 13:09:37", "genre": "Action", "sentiment": 0.54, "message_length": 19}
+{"title": "Python,  Masters of the Code", "message": "Horrible film", "critic": "Eve", "timestamp": "2025-02-16 13:09:42", "genre": "Sci-Fi", "sentiment": 0.28, "message_length": 13}
+{"title": "Python,  A kafka Story", "message": "Movie of the YEAR", "critic": "Charlie", "timestamp": "2025-02-16 13:09:47", "genre": "Sci-Fi", "sentiment": 0.88, "message_length": 17}
+{"title": "Python,  A kafka Story", "message": "Life changing", "critic": "Charlie", "timestamp": "2025-02-16 13:09:52", "genre": "Comdey", "sentiment": 0.11, "message_length": 13}
+{"title": "Python,  Masters of the Code", "message": "Life changing", "critic": "Eve", "timestamp": "2025-02-16 13:09:57", "genre": "Romance", "sentiment": 0.4, "message_length": 13}
+{"title": "Untouchable: Masters of the Code", "message": "Great story", "critic": "Tilly", "timestamp": "2025-02-16 13:10:02", "genre": "Romance", "sentiment": 0.76, "message_length": 11}
+{"title": "Stronger,  A kafka Story", "message": "This movie had me laughing from start to end", "critic": "George", "timestamp": "2025-02-16 13:10:07", "genre": "Action", "sentiment": 0.28, "message_length": 44}
+{"title": "Python,  A kafka Story", "message": "Horrible film", "critic": "Eve", "timestamp": "2025-02-16 13:10:12", "genre": "Sci-Fi", "sentiment": 0.9, "message_length": 13}
+{"title": "Untouchable: an Underdog Story", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:10:17", "genre": "Comdey", "sentiment": 0.68, "message_length": 17}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Would watch again", "critic": "Frank", "timestamp": "2025-02-16 13:10:22", "genre": "Romance", "sentiment": 0.91, "message_length": 17}
+{"title": "Python,  A kafka Story", "message": "Two thumbs way down", "critic": "Bob", "timestamp": "2025-02-16 13:10:27", "genre": "Sci-Fi", "sentiment": 0.75, "message_length": 19}
+{"title": "Python,  the Rise of Code", "message": "two thumbs way up", "critic": "Bob", "timestamp": "2025-02-16 13:10:32", "genre": "Action", "sentiment": 0.07, "message_length": 17}
+{"title": "Stronger,  an Underdog Story", "message": "I wish that I could get my money back", "critic": "Eve", "timestamp": "2025-02-16 13:10:37", "genre": "Comdey", "sentiment": 0.58, "message_length": 37}
+{"title": "Stronger,  A kafka Story", "message": "two thumbs way up", "critic": "George", "timestamp": "2025-02-16 13:10:42", "genre": "Romance", "sentiment": 0.25, "message_length": 17}
+{"title": "Stronger,  A kafka Story", "message": "Horrible film", "critic": "Eve", "timestamp": "2025-02-16 13:10:47", "genre": "Romance", "sentiment": 0.4, "message_length": 13}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Two thumbs way down", "critic": "George", "timestamp": "2025-02-16 13:10:52", "genre": "Comdey", "sentiment": 0.21, "message_length": 19}
+{"title": "Clear as Mud:  the Rise of Code", "message": "two thumbs way up", "critic": "George", "timestamp": "2025-02-16 13:10:57", "genre": "Comdey", "sentiment": 0.88, "message_length": 17}
+{"title": "Stronger,  A kafka Story", "message": "Would watch again", "critic": "Eve", "timestamp": "2025-02-16 13:11:02", "genre": "Sci-Fi", "sentiment": 0.55, "message_length": 17}
+{"title": "Stronger,  A kafka Story", "message": "Two thumbs way down", "critic": "Bob", "timestamp": "2025-02-16 13:11:07", "genre": "Romance", "sentiment": 0.45, "message_length": 19}
+{"title": "Untouchable: A kafka Story", "message": "This movie had me laughing from start to end", "critic": "Tilly", "timestamp": "2025-02-16 13:11:12", "genre": "Sci-Fi", "sentiment": 0.81, "message_length": 44}
+{"title": "Untouchable: A kafka Story", "message": "I wish that I could get my money back", "critic": "Bob", "timestamp": "2025-02-16 13:11:17", "genre": "Sci-Fi", "sentiment": 0.77, "message_length": 37}
+{"title": "Stronger,  A kafka Story", "message": "Two thumbs way down", "critic": "Frank", "timestamp": "2025-02-16 13:11:22", "genre": "Sci-Fi", "sentiment": 0.13, "message_length": 19}
+{"title": "Python,  Masters of the Code", "message": "This was the best movie I have seen", "critic": "Sally", "timestamp": "2025-02-16 13:11:27", "genre": "Romance", "sentiment": 0.72, "message_length": 35}
+{"title": "Python,  Masters of the Code", "message": "Two thumbs way down", "critic": "Tilly", "timestamp": "2025-02-16 13:11:32", "genre": "Comdey", "sentiment": 0.8, "message_length": 19}
+{"title": "Clear as Mud:  an Underdog Story", "message": "This movie had me laughing from start to end", "critic": "Bob", "timestamp": "2025-02-16 13:11:37", "genre": "Comdey", "sentiment": 0.46, "message_length": 44}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Horrible film", "critic": "Sally", "timestamp": "2025-02-16 13:11:42", "genre": "Comdey", "sentiment": 0.94, "message_length": 13}
+{"title": "Stronger,  Masters of the Code", "message": "Movie of the YEAR", "critic": "Eve", "timestamp": "2025-02-16 13:11:47", "genre": "Sci-Fi", "sentiment": 0.49, "message_length": 17}
+{"title": "Clear as Mud:  A kafka Story", "message": "Movie of the YEAR", "critic": "Charlie", "timestamp": "2025-02-16 13:11:52", "genre": "Action", "sentiment": 0.13, "message_length": 17}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Was a complete waste of time", "critic": "Charlie", "timestamp": "2025-02-16 13:11:57", "genre": "Sci-Fi", "sentiment": 0.26, "message_length": 28}
+{"title": "Stronger,  the Rise of Code", "message": "Great story", "critic": "Eve", "timestamp": "2025-02-16 13:12:02", "genre": "Action", "sentiment": 0.31, "message_length": 11}
+{"title": "Untouchable: Masters of the Code", "message": "Was a complete waste of time", "critic": "Frank", "timestamp": "2025-02-16 13:12:07", "genre": "Romance", "sentiment": 0.92, "message_length": 28}
+{"title": "Clear as Mud:  an Underdog Story", "message": "This was the best movie I have seen", "critic": "Sally", "timestamp": "2025-02-16 13:12:12", "genre": "Action", "sentiment": 0.08, "message_length": 35}
+{"title": "Python,  the Rise of Code", "message": "Horrible film", "critic": "Charlie", "timestamp": "2025-02-16 13:12:17", "genre": "Romance", "sentiment": 0.54, "message_length": 13}
+{"title": "Stronger,  Masters of the Code", "message": "two thumbs way up", "critic": "Frank", "timestamp": "2025-02-16 13:12:22", "genre": "Comdey", "sentiment": 0.01, "message_length": 17}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Horrible film", "critic": "Charlie", "timestamp": "2025-02-16 13:12:27", "genre": "Action", "sentiment": 0.06, "message_length": 13}
+{"title": "Python,  A kafka Story", "message": "Great story", "critic": "Eve", "timestamp": "2025-02-16 13:12:32", "genre": "Sci-Fi", "sentiment": 0.22, "message_length": 11}
+{"title": "Untouchable: an Underdog Story", "message": "Horrible film", "critic": "Bob", "timestamp": "2025-02-16 13:12:37", "genre": "Action", "sentiment": 0.25, "message_length": 13}
+{"title": "Clear as Mud:  A kafka Story", "message": "This movie had me laughing from start to end", "critic": "Tilly", "timestamp": "2025-02-16 13:12:42", "genre": "Action", "sentiment": 0.35, "message_length": 44}
+{"title": "Python,  A kafka Story", "message": "Life changing", "critic": "Tilly", "timestamp": "2025-02-16 13:12:47", "genre": "Comdey", "sentiment": 0.75, "message_length": 13}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Would watch again", "critic": "Frank", "timestamp": "2025-02-16 13:12:52", "genre": "Sci-Fi", "sentiment": 0.98, "message_length": 17}
+{"title": "Stronger,  an Underdog Story", "message": "I wish that I could get my money back", "critic": "Sally", "timestamp": "2025-02-16 13:12:57", "genre": "Comdey", "sentiment": 0.8, "message_length": 37}
+{"title": "Untouchable: Masters of the Code", "message": "This movie had me laughing from start to end", "critic": "Sally", "timestamp": "2025-02-16 13:13:02", "genre": "Action", "sentiment": 0.67, "message_length": 44}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Two thumbs way down", "critic": "Bob", "timestamp": "2025-02-16 13:13:07", "genre": "Action", "sentiment": 0.25, "message_length": 19}
+{"title": "Clear as Mud:  Masters of the Code", "message": "Two thumbs way down", "critic": "Charlie", "timestamp": "2025-02-16 13:13:12", "genre": "Action", "sentiment": 0.6, "message_length": 19}
+{"title": "Clear as Mud:  an Underdog Story", "message": "Two thumbs way down", "critic": "Sally", "timestamp": "2025-02-16 13:13:17", "genre": "Romance", "sentiment": 0.49, "message_length": 19}
+{"title": "Untouchable: A kafka Story", "message": "Was a complete waste of time", "critic": "Charlie", "timestamp": "2025-02-16 13:13:22", "genre": "Action", "sentiment": 0.63, "message_length": 28}
+{"title": "Untouchable: the Rise of Code", "message": "Two thumbs way down", "critic": "Bob", "timestamp": "2025-02-16 13:13:27", "genre": "Sci-Fi", "sentiment": 0.71, "message_length": 19}
+{"title": "Untouchable: the Rise of Code", "message": "This was the best movie I have seen", "critic": "Frank", "timestamp": "2025-02-16 13:13:32", "genre": "Sci-Fi", "sentiment": 0.28, "message_length": 35}
+{"title": "Untouchable: an Underdog Story", "message": "two thumbs way up", "critic": "George", "timestamp": "2025-02-16 13:13:37", "genre": "Sci-Fi", "sentiment": 0.3, "message_length": 17}
+{"title": "Untouchable: Masters of the Code", "message": "Movie of the YEAR", "critic": "Frank", "timestamp": "2025-02-16 13:13:42", "genre": "Comdey", "sentiment": 0.96, "message_length": 17}
+{"title": "Clear as Mud:  an Underdog Story", "message": "This movie had me laughing from start to end", "critic": "Frank", "timestamp": "2025-02-16 13:13:47", "genre": "Comdey", "sentiment": 0.78, "message_length": 44}
+{"title": "Clear as Mud:  the Rise of Code", "message": "Movie of the YEAR", "critic": "Charlie", "timestamp": "2025-02-16 13:13:52", "genre": "Action", "sentiment": 0.33, "message_length": 17}
+{"title": "Clear as Mud:  A kafka Story", "message": "This movie had me laughing from start to end", "critic": "Frank", "timestamp": "2025-02-16 13:13:57", "genre": "Action", "sentiment": 0.43, "message_length": 44}
+{"title": "Python,  an Underdog Story", "message": "Movie of the YEAR", "critic": "Frank", "timestamp": "2025-02-16 13:14:02", "genre": "Comdey", "sentiment": 1.0, "message_length": 17}

@@ -60,56 +60,55 @@ def generate_messages():
     """
     Generate a stream of JSON messages.
     """
-    ADJECTIVES = ["amazing", "funny", "boring", "exciting", "weird"]
-    ACTIONS = ["found", "saw", "tried", "shared", "loved"]
-    TOPICS = [
-        "a movie",
-        "a meme",
-        "an app",
-        "a trick",
-        "a story",
-        "Python",
-        "JavaScript",
-        "recipe",
-        "travel",
-        "game",
-    ]
-    AUTHORS = ["Alice", "Bob", "Charlie", "Eve"]
-    KEYWORD_CATEGORIES = {
-        "meme": "humor",
-        "Python": "tech",
-        "JavaScript": "tech",
-        "recipe": "food",
-        "travel": "travel",
-        "movie": "entertainment",
-        "game": "gaming",
-    }
+    TITLE_INTRO = ["Python, ",
+             "Untouchable:",
+             "Clear as Mud: ",
+             "Stronger, "
+             ]
+    TITLE_END = ["Masters of the Code", 
+              "the Rise of Code", 
+              "an Underdog Story", 
+              "A kafka Story"
+              ]
+    GENRE = ["Comdey", "Action", "Romance", "Sci-Fi"]
+    REVIEW = ["This was the best movie I have seen",
+              "This movie had me laughing from start to end",
+              "Horrible film",
+              "Would watch again",
+              "Was a complete waste of time",
+              "Great story",
+              "Movie of the YEAR",
+              "I wish that I could get my money back",
+              "Life changing",
+              "Two thumbs way down",
+              "two thumbs way up"]
+    CRITICS = ["Frank", "Bob", "Charlie", "Eve", "Sally", "George", "Tilly"]
+    STARS = [1,3,4,5]
+
     while True:
-        adjective = random.choice(ADJECTIVES)
-        action = random.choice(ACTIONS)
-        topic = random.choice(TOPICS)
-        author = random.choice(AUTHORS)
-        message_text = f"I watched {action} {topic}! It was {adjective}."
+        title_intro = random.choice(TITLE_INTRO)
+        title_end = random.choice(TITLE_END)
+        genre =random.choice(GENRE)
+        critic = random.choice(CRITICS)
+        title = f"{title_intro} {title_end}"
+        review = random.choice(REVIEW)
+        #stars = random.choice(STARS)
         timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-        # Find category based on keywords
-        keyword_mentioned = next(
-            (word for word in KEYWORD_CATEGORIES if word in topic), "other"
-        )
-        category = KEYWORD_CATEGORIES.get(keyword_mentioned, "other")
 
         # Assess sentiment
-        sentiment = assess_sentiment(message_text)
+        sentiment = assess_sentiment(review)
 
         # Create JSON message
         json_message = {
-            "message": message_text,
-            "author": author,
+            "title": title,
+            "message": review,
+            #"stars": stars,
+            "critic": critic,
             "timestamp": timestamp,
-            "category": category,
+            "genre": genre,
             "sentiment": sentiment,
-            "keyword_mentioned": keyword_mentioned,
-            "message_length": len(message_text),
+            "message_length": len(review),
         }
 
         yield json_message

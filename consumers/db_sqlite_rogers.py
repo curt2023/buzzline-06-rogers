@@ -60,20 +60,20 @@ def init_db(db_path: pathlib.Path):
                 """
                 CREATE TABLE IF NOT EXISTS streamed_messages (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    title TEXT,
                     message TEXT,
-                    author TEXT,
+                    critic TEXT,
                     timestamp TEXT,
-                    category TEXT,
+                    genre TEXT,
                     sentiment REAL,
-                    keyword_mentioned TEXT,
                     message_length INTEGER
                 )
             """
             )
 
             cursor.execute("""
-            CREATE TABLE IF NOT EXISTS sentiment_per_category (
-                category TEXT PRIMARY KEY,
+            CREATE TABLE IF NOT EXISTS sentiment_per_genre (
+                genre TEXT PRIMARY KEY,
                 avg_sentiment REAL
             )
             """)
@@ -108,16 +108,16 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
             cursor.execute(
                 """
                 INSERT INTO streamed_messages(
-                    message, author, timestamp, category, sentiment, keyword_mentioned, message_length
+                    title,message, critic, timestamp, genre, sentiment, message_length
                 ) VALUES (?, ?, ?, ?, ?, ?, ?)
             """,
                 (
+                    message["title"],
                     message["message"],
-                    message["author"],
+                    message["critic"],
                     message["timestamp"],
-                    message["category"],
+                    message["genre"],
                     message["sentiment"],
-                    message["keyword_mentioned"],
                     message["message_length"],
                 ),
             )
@@ -125,14 +125,14 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
                         # Update category sentiment (calculate average)
             cursor.execute(
                 """
-                INSERT INTO sentiment_per_category (category, avg_sentiment)
+                INSERT INTO sentiment_per_genre (genre, avg_sentiment)
                 VALUES (?, ?)
-                ON CONFLICT(category) DO UPDATE SET avg_sentiment = (
-                    SELECT AVG(sentiment) FROM streamed_messages WHERE category = ?
+                ON CONFLICT(genre) DO UPDATE SET avg_sentiment = (
+                    SELECT AVG(sentiment) FROM streamed_messages WHERE genre = ?
                 )
-            """, (message["category"],
+            """, (message["genre"],
                   message["sentiment"],
-                  message["category"],
+                  message["genre"],
                 ))
             conn.commit()
         logger.info("Inserted one message into the database.")
@@ -179,12 +179,12 @@ def main():
     logger.info(f"Initialized database file at {TEST_DB_PATH}.")
 
     test_message = {
+        "title": "Just a test title",
         "message": "I just shared a meme! It was amazing.",
-        "author": "Charlie",
+        "critic": "Charlie",
         "timestamp": "2025-01-29 14:35:20",
-        "category": "humor",
+        "genre": "comedy",
         "sentiment": 0.87,
-        "keyword_mentioned": "meme",
         "message_length": 42,
     }
 

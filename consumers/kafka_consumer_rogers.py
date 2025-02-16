@@ -59,7 +59,7 @@ def fetch_data():
         with sqlite3.connect(DB_PATH) as conn:
             cursor = conn.cursor()
 
-            cursor.execute("SELECT category, avg_sentiment FROM sentiment_per_category")
+            cursor.execute("SELECT genre, avg_sentiment FROM sentiment_per_genre")
             visual_data1 = cursor.fetchall()
         return visual_data1
     except Exception as e:
@@ -73,19 +73,19 @@ def update_chart():
 
     
 
-    category, avg_sentiment = zip(*visual_data1)
+    genre, avg_sentiment = zip(*visual_data1)
 
 
-    ax.bar(category, avg_sentiment, color="lawngreen", edgecolor ='orange')
+    ax.bar(genre, avg_sentiment, color="lawngreen", edgecolor ='orange')
     ax.set_title("Average Sentiment per Category")
     ax.set_ylabel("avg_sentiment")
-    ax.set_xlabel("category")
+    ax.set_xlabel("genre")
     ax.set_facecolor("lightsteelblue")
     ax.set_ylim(0,1)
 
     plt.tight_layout()
     plt.draw()
-    plt.pause(1)
+    plt.pause(0.5)
 
    
 
@@ -108,12 +108,12 @@ def process_message(message: dict) -> None:
     logger.info(f"   {message=}")
     try:
         processed_message = {
-            "message": message.get("message"),
-            "author": message.get("author"),
+            "title": message.get("title"),
+            "message": message.get("review"),
+            "critic": message.get("critic"),
             "timestamp": message.get("timestamp"),
-            "category": message.get("category"),
+            "genre": message.get("genre"),
             "sentiment": float(message.get("sentiment", 0.0)),
-            "keyword_mentioned": message.get("keyword_mentioned"),
             "message_length": int(message.get("message_length", 0)),
         }
         logger.info(f"Processed message: {processed_message}")
@@ -121,6 +121,7 @@ def process_message(message: dict) -> None:
     except Exception as e:
         logger.error(f"Error processing message: {e}")
         return None
+    update_chart()
 
 
 #####################################
@@ -218,6 +219,9 @@ def main():
     logger.info("Moved .env variables into a utils config module.")
 
     logger.info("STEP 1. Read environment variables using new config functions.")
+
+
+
     try:
         topic = config.get_kafka_topic()
         kafka_url = config.get_kafka_broker_address()
@@ -225,11 +229,6 @@ def main():
         interval_secs: int = config.get_message_interval_seconds_as_int()
         sqlite_path: pathlib.Path = config.get_sqlite_path()
         logger.info("SUCCESS: Read environment variables.")
-
-        init_db(DB_PATH)
-
-        update_chart()
-
 
     except Exception as e:
         logger.error(f"ERROR: Failed to read environment variables: {e}")
@@ -246,8 +245,11 @@ def main():
 
 
     logger.info("STEP 3. Initialize a new database with an empty table.")
+    
+
+
     try:
-        init_db(sqlite_path)
+        init_db(DB_PATH)
     except Exception as e:
         logger.error(f"ERROR: Failed to create db table: {e}")
         sys.exit(3)
@@ -258,6 +260,8 @@ def main():
             topic, kafka_url, group_id, sqlite_path, interval_secs
         )
 
+    except Exception as e:
+        logger.error (f"ERROR: Failed to store messages.")
 
     except KeyboardInterrupt:
         logger.warning("Consumer interrupted by user.")
@@ -265,15 +269,14 @@ def main():
         logger.error(f"Unexpected error: {e}")
     finally:
         logger.info("Consumer shutting down.")
-    
+
 
 
 #####################################
 # Conditional Execution
 #####################################
 
-
-
-
+update_chart()
 if __name__ == "__main__":
     main()
+
