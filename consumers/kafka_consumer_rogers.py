@@ -103,7 +103,7 @@ def update_chart():
         ax2.set_ylabel("review_count")
         ax2.set_xlabel("critic")
         ax2.set_facecolor("lightsteelblue")
-        ax2.set_ylim(0,15)
+        ax2.set_ylim(0,)
 
         
 
@@ -248,4 +248,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
