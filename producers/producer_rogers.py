@@ -102,7 +102,7 @@ def generate_messages():
         # Create JSON message
         json_message = {
             "title": title,
-            "message": review,
+            "review": review,
             #"stars": stars,
             "critic": critic,
             "timestamp": timestamp,

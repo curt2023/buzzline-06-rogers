@@ -30,6 +30,7 @@ import pathlib
 import sys
 import sqlite3
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 from matplotlib import colors as mcolors
 
 
@@ -47,8 +48,9 @@ from utils.utils_producer import verify_services, is_topic_available
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from consumers.db_sqlite_rogers import init_db, insert_message
 
-fig, ax = plt.subplots()
+fig = plt.figure(figsize=(10,8))
 fig.patch.set_facecolor('slategrey')
+gs = gridspec.GridSpec(2, 2, height_ratios=[1,1])
 plt.ion()
 
 
@@ -61,27 +63,49 @@ def fetch_data():
 
             cursor.execute("SELECT genre, avg_sentiment FROM sentiment_per_genre")
             visual_data1 = cursor.fetchall()
-        return visual_data1
+
+            cursor.execute("SELECT critic, review_count FROM critic_entry_counts")
+            critic_data = cursor.fetchall()
+
+
+        return visual_data1, critic_data
     except Exception as e:
         logger.error(f"Error Fetching data: {e}")
 
   
 def update_chart():
     while True:
-
-        visual_data1 = fetch_data() 
+        visual_data1, critic_data = fetch_data() 
  
-        ax.clear() #clear previous chart
+
+        ax1 = fig.add_subplot(gs[0,0])
+        ax1.clear() #clear previous chart
 
         genre, avg_sentiment = zip(*visual_data1)
 
+        
 
-        ax.bar(genre, avg_sentiment, color="lawngreen", edgecolor ='orange')
-        ax.set_title("Average Sentiment per Category")
-        ax.set_ylabel("avg_sentiment")
-        ax.set_xlabel("genre")
-        ax.set_facecolor("lightsteelblue")
-        ax.set_ylim(0,1)
+        ax1.bar(genre, avg_sentiment, color="lawngreen", edgecolor ='orange')
+        ax1.set_title("Average Sentiment per Category")
+        ax1.set_ylabel("avg_sentiment")
+        ax1.set_xlabel("genre")
+        ax1.set_facecolor("lightsteelblue")
+        ax1.set_ylim(0,1)
+
+        #visual 2
+        critic, review_count = zip(*critic_data)
+
+        ax2 = fig.add_subplot(gs[0,1])
+        ax2.clear()
+
+        ax2.bar(critic, review_count, color="lawngreen", edgecolor ='orange')
+        ax2.set_title("Average Sentiment per Category")
+        ax2.set_ylabel("review_count")
+        ax2.set_xlabel("critic")
+        ax2.set_facecolor("lightsteelblue")
+        ax2.set_ylim(0,15)
+
+        
 
         plt.tight_layout()
         plt.draw()
@@ -109,7 +133,7 @@ def process_message(message: dict) -> None:
     try:
         processed_message = {
             "title": message.get("title"),
-            "message": message.get("review"),
+            "review": message.get("review"),
             "critic": message.get("critic"),
             "timestamp": message.get("timestamp"),
             "genre": message.get("genre"),

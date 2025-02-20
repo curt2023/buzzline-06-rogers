@@ -61,7 +61,7 @@ def init_db(db_path: pathlib.Path):
                 CREATE TABLE IF NOT EXISTS streamed_messages (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     title TEXT,
-                    message TEXT,
+                    review TEXT,
                     critic TEXT,
                     timestamp TEXT,
                     genre TEXT,
@@ -75,6 +75,13 @@ def init_db(db_path: pathlib.Path):
             CREATE TABLE IF NOT EXISTS sentiment_per_genre (
                 genre TEXT PRIMARY KEY,
                 avg_sentiment REAL
+            )
+            """)
+
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS critic_entry_counts (
+                critic TEXT PRIMARY KEY,
+                review_count REAL
             )
             """)
 
@@ -108,12 +115,12 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
             cursor.execute(
                 """
                 INSERT INTO streamed_messages(
-                    title,message, critic, timestamp, genre, sentiment, message_length
+                    title,review, critic, timestamp, genre, sentiment, message_length
                 ) VALUES (?, ?, ?, ?, ?, ?, ?)
             """,
                 (
                     message["title"],
-                    message["message"],
+                    message["review"],
                     message["critic"],
                     message["timestamp"],
                     message["genre"],
@@ -133,6 +140,18 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
             """, (message["genre"],
                   message["sentiment"],
                   message["genre"],
+                ))
+            
+            cursor.execute(
+                """
+                INSERT INTO critic_entry_counts (critic, review_count)
+                VALUES (?, ?)
+                ON CONFLICT(critic) DO UPDATE SET review_count = (
+                    SELECT COUNT(title) FROM streamed_messages WHERE critic = ?
+                )
+            """, (message["critic"],
+                  message["title"],
+                  message["critic"],
                 ))
             conn.commit()
         logger.info("Inserted one message into the database.")
