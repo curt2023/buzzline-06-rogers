@@ -5,13 +5,13 @@ Stream JSON data to a file and - if available - a Kafka topic.
 
 Example JSON message
 {
-    "message": "I just shared a meme! It was amazing.",
-    "author": "Charlie",
-    "timestamp": "2025-01-29 14:35:20",
-    "category": "humor",
-    "sentiment": 0.87,
-    "keyword_mentioned": "meme",
-    "message_length": 42
+    "title" : "Python, the Rise of code"
+    "review": "I wish that I could get my money back"
+    "critic": "Bob"
+    "timestamp": "2025-02-20 07:53:22"
+    "genre": "Comedy"
+    "sentiment": 0.38
+    "message_length":37
 }
 
 Environment variables are in utils/utils_config module. 
