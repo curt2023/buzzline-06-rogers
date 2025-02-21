@@ -49,7 +49,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from consumers.db_sqlite_rogers import init_db, insert_message
 
 fig = plt.figure(figsize=(10,8))
-fig.patch.set_facecolor('slategrey')
+fig.patch.set_facecolor('cadetblue')
 gs = gridspec.GridSpec(2, 2, height_ratios=[1,1])
 plt.ion()
 
@@ -85,11 +85,11 @@ def update_chart():
 
         
 
-        ax1.bar(genre, avg_sentiment, color="lawngreen", edgecolor ='orange')
+        ax1.bar(genre, avg_sentiment, color="blueviolet", edgecolor ='red')
         ax1.set_title("Average Sentiment per Category")
         ax1.set_ylabel("avg_sentiment")
         ax1.set_xlabel("genre")
-        ax1.set_facecolor("lightsteelblue")
+        ax1.set_facecolor("lightyellow")
         ax1.set_ylim(0,1)
 
         #visual 2
@@ -102,8 +102,8 @@ def update_chart():
         ax2.set_title("Average Sentiment per Category")
         ax2.set_ylabel("review_count")
         ax2.set_xlabel("critic")
-        ax2.set_facecolor("lightsteelblue")
-        ax2.set_ylim(0,20)
+        ax2.set_facecolor("lightyellow")
+        ax2.set_ylim(0,25)
 
         
 
