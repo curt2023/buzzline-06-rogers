@@ -63,13 +63,7 @@ def fetch_data():
 
             cursor.execute("SELECT genre, avg_sentiment FROM sentiment_per_genre")
             visual_data1 = cursor.fetchall()
-
-            cursor.execute("SELECT critic, review_count FROM critic_entry_counts")
-            critic_data = cursor.fetchall()
-
-
-
-        return visual_data1, critic_data
+        return visual_data1
     except Exception as e:
         logger.error(f"Error Fetching data: {e}")
 
@@ -84,29 +78,13 @@ def update_chart():
 
         genre, avg_sentiment = zip(*visual_data1)
 
-        
 
-        ax1.bar(genre, avg_sentiment, color="lawngreen", edgecolor ='orange')
-        ax1.set_title("Average Sentiment per Category")
-        ax1.set_ylabel("avg_sentiment")
-        ax1.set_xlabel("genre")
-        ax1.set_facecolor("lightsteelblue")
-        ax1.set_ylim(0,1)
-
-        #visual 2
-        critic, review_count = zip(*critic_data)
-
-        ax2 = fig.add_subplot(gs[0,1])
-        ax2.clear()
-
-        ax2.bar(critic, review_count, color="lawngreen", edgecolor ='orange')
-        ax2.set_title("Average Sentiment per Category")
-        ax2.set_ylabel("review_count")
-        ax2.set_xlabel("critic")
-        ax2.set_facecolor("lightsteelblue")
-        ax2.set_ylim(0,20)
-
-        
+        ax.bar(genre, avg_sentiment, color="lawngreen", edgecolor ='orange')
+        ax.set_title("Average Sentiment per Category")
+        ax.set_ylabel("avg_sentiment")
+        ax.set_xlabel("genre")
+        ax.set_facecolor("lightsteelblue")
+        ax.set_ylim(0,1)
 
         plt.tight_layout()
         plt.draw()
