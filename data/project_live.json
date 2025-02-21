@@ -115,3 +115,20 @@
 {"title": "Clear as Mud:  A kafka Story", "review": "Life changing", "critic": "George", "timestamp": "2025-02-21 04:47:01", "genre": "Romance", "sentiment": 0.75, "message_length": 13}
 {"title": "Clear as Mud:  the Rise of Code", "review": "Great story", "critic": "Eve", "timestamp": "2025-02-21 04:47:06", "genre": "Action", "sentiment": 0.09, "message_length": 11}
 {"title": "Clear as Mud:  Masters of the Code", "review": "Life changing", "critic": "Sally", "timestamp": "2025-02-21 04:47:11", "genre": "Romance", "sentiment": 0.09, "message_length": 13}
+{"title": "Untouchable: A kafka Story", "review": "Great story", "critic": "Tilly", "timestamp": "2025-02-21 04:47:16", "genre": "Action", "sentiment": 0.68, "message_length": 11}
+{"title": "Untouchable: Masters of the Code", "review": "Would watch again", "critic": "Sally", "timestamp": "2025-02-21 04:47:21", "genre": "Romance", "sentiment": 0.27, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "review": "This movie had me laughing from start to end", "critic": "Charlie", "timestamp": "2025-02-21 04:47:26", "genre": "Comdey", "sentiment": 0.67, "message_length": 44}
+{"title": "Untouchable: the Rise of Code", "review": "two thumbs way up", "critic": "George", "timestamp": "2025-02-21 04:47:31", "genre": "Romance", "sentiment": 0.57, "message_length": 17}
+{"title": "Clear as Mud:  A kafka Story", "review": "Movie of the YEAR", "critic": "Frank", "timestamp": "2025-02-21 04:47:36", "genre": "Comdey", "sentiment": 0.61, "message_length": 17}
+{"title": "Python,  A kafka Story", "review": "This was the best movie I have seen", "critic": "Bob", "timestamp": "2025-02-21 04:47:41", "genre": "Romance", "sentiment": 0.56, "message_length": 35}
+{"title": "Clear as Mud:  Masters of the Code", "review": "two thumbs way up", "critic": "Charlie", "timestamp": "2025-02-21 04:47:46", "genre": "Romance", "sentiment": 0.28, "message_length": 17}
+{"title": "Stronger,  the Rise of Code", "review": "This movie had me laughing from start to end", "critic": "Eve", "timestamp": "2025-02-21 04:47:51", "genre": "Romance", "sentiment": 0.38, "message_length": 44}
+{"title": "Stronger,  Masters of the Code", "review": "two thumbs way up", "critic": "Bob", "timestamp": "2025-02-21 04:47:56", "genre": "Action", "sentiment": 0.34, "message_length": 17}
+{"title": "Stronger,  Masters of the Code", "review": "two thumbs way up", "critic": "Tilly", "timestamp": "2025-02-21 04:48:01", "genre": "Action", "sentiment": 0.21, "message_length": 17}
+{"title": "Clear as Mud:  the Rise of Code", "review": "This was the best movie I have seen", "critic": "Tilly", "timestamp": "2025-02-21 04:48:06", "genre": "Comdey", "sentiment": 0.26, "message_length": 35}
+{"title": "Clear as Mud:  the Rise of Code", "review": "I wish that I could get my money back", "critic": "Tilly", "timestamp": "2025-02-21 04:48:11", "genre": "Comdey", "sentiment": 0.96, "message_length": 37}
+{"title": "Clear as Mud:  A kafka Story", "review": "Horrible film", "critic": "Tilly", "timestamp": "2025-02-21 04:48:16", "genre": "Action", "sentiment": 0.47, "message_length": 13}
+{"title": "Clear as Mud:  the Rise of Code", "review": "Great story", "critic": "George", "timestamp": "2025-02-21 04:48:21", "genre": "Romance", "sentiment": 0.7, "message_length": 11}
+{"title": "Untouchable: an Underdog Story", "review": "I wish that I could get my money back", "critic": "Charlie", "timestamp": "2025-02-21 04:48:26", "genre": "Romance", "sentiment": 0.93, "message_length": 37}
+{"title": "Untouchable: Masters of the Code", "review": "Would watch again", "critic": "Bob", "timestamp": "2025-02-21 04:48:31", "genre": "Comdey", "sentiment": 0.92, "message_length": 17}
+{"title": "Clear as Mud:  Masters of the Code", "review": "Would watch again", "critic": "George", "timestamp": "2025-02-21 04:48:36", "genre": "Action", "sentiment": 0.23, "message_length": 17}
