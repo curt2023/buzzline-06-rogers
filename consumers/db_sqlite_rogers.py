@@ -54,7 +54,7 @@ def init_db(db_path: pathlib.Path):
             cursor = conn.cursor()
             logger.info("SUCCESS: Got a cursor to execute SQL.")
 
-            cursor.execute("DROP TABLE IF EXISTS streamed_messages;")
+            cursor.execute("DROP TABLE IF EXISTS streamed_messages")
 
             cursor.execute(
                 """
@@ -82,6 +82,16 @@ def init_db(db_path: pathlib.Path):
             CREATE TABLE IF NOT EXISTS critic_entry_counts (
                 critic TEXT PRIMARY KEY,
                 review_count REAL
+            )
+            """)
+
+
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS tilly_sentiment (
+                critic TEXT,
+                timestamp DATE,
+                genre TEXT,
+                sentiment REAL
             )
             """)
 
@@ -153,6 +163,20 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
                   message["title"],
                   message["critic"],
                 ))
+            
+            cursor.execute(
+                """
+                INSERT INTO tilly_sentiment(
+                    critic, timestamp, genre, sentiment
+                ) VALUES (?, ?, ?, ?)
+            """,
+                (
+                    message["critic"],
+                    message["timestamp"],
+                    message["genre"],
+                    message["sentiment"],
+                ),
+            )
             conn.commit()
         logger.info("Inserted one message into the database.")
     except Exception as e:

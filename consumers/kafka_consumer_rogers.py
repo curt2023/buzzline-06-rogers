@@ -29,6 +29,8 @@ import os
 import pathlib
 import sys
 import sqlite3
+import datetime
+import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import colors as mcolors
@@ -67,15 +69,19 @@ def fetch_data():
             cursor.execute("SELECT critic, review_count FROM critic_entry_counts")
             critic_data = cursor.fetchall()
 
+           
+            cursor.execute("SELECT critic,timestamp,genre,sentiment FROM tilly_sentiment WHERE critic =? AND genre =?", ("Tilly", "Action"))
+            tilly_data = cursor.fetchall()
 
-        return visual_data1, critic_data
+
+        return visual_data1, critic_data, tilly_data
     except Exception as e:
         logger.error(f"Error Fetching data: {e}")
 
   
 def update_chart():
     while True:
-        visual_data1, critic_data = fetch_data() 
+        visual_data1, critic_data, tilly_data = fetch_data() 
  
 
         ax1 = fig.add_subplot(gs[0,0])
@@ -104,6 +110,19 @@ def update_chart():
         ax2.set_xlabel("critic")
         ax2.set_facecolor("lightyellow")
         ax2.set_ylim(0,25)
+
+        #visual 3
+        critic, timestamp, genre, sentiment  = zip(*tilly_data)
+        ax3 = fig.add_subplot(gs[1, :])
+        ax3.clear()
+        
+        ax3.plot(timestamp, sentiment, marker ='o', linestyle = '-', color="lawngreen")
+        ax3.set_title("Tilly Action Sentiment")
+        ax3.set_ylabel("Sentiment")
+        ax3.set_xlabel("timestamp")
+        ax3.set_facecolor("lightyellow")
+        ax3.set_ylim(0,1)
+       
 
         
 
@@ -204,8 +223,6 @@ def consume_messages_from_kafka(
 #####################################
 # Define Main Function
 #####################################
-
-
 def main():
     """
     Main function to run the consumer process.
@@ -217,13 +234,34 @@ def main():
     logger.info("Moved .env variables into a utils config module.")
 
     logger.info("STEP 1. Read environment variables using new config functions.")
-
     try:
         topic = config.get_kafka_topic()
         kafka_url = config.get_kafka_broker_address()
         group_id = config.get_kafka_consumer_group_id()
 
+        
+
+
+    except Exception as e:
+        logger.error(f"ERROR: Failed to read environment variables: {e}")
+        sys.exit(1)
+
+
+
+
+    logger.info("STEP 3. Initialize a new database with an empty table.")
+    try:
         init_db(DB_PATH)
+    except Exception as e:
+        logger.error(f"ERROR: Failed to create db table: {e}")
+        sys.exit(3)
+
+    logger.info("STEP 4. Begin consuming and storing messages.")
+    try:
+
+        #consume_messages_from_kafka(
+        #topic, kafka_url, group_id
+        #)
 
         import threading
         consumer_thread = threading.Thread(target= consume_messages_from_kafka, args=(topic,kafka_url,group_id))
@@ -232,18 +270,23 @@ def main():
 
         update_chart()
 
+    
+
+
     except KeyboardInterrupt:
         logger.warning("Consumer interrupted by user.")
     except Exception as e:
         logger.error(f"Unexpected error: {e}")
     finally:
         logger.info("Consumer shutting down.")
+    
 
-   
 
 #####################################
 # Conditional Execution
 #####################################
+
+
 
 
 if __name__ == "__main__":
