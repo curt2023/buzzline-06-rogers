@@ -82,46 +82,52 @@ def fetch_data():
 def update_chart():
     while True:
         visual_data1, critic_data, tilly_data = fetch_data() 
- 
 
-        ax1 = fig.add_subplot(gs[0,0])
-        ax1.clear() #clear previous chart
 
-        genre, avg_sentiment = zip(*visual_data1)
+        if visual_data1:
+
+            ax1 = fig.add_subplot(gs[0,0])
+            ax1.clear() #clear previous chart
+
+            genre, avg_sentiment = zip(*visual_data1)
 
         
 
-        ax1.bar(genre, avg_sentiment, color="blueviolet", edgecolor ='red')
-        ax1.set_title("Average Sentiment per Category")
-        ax1.set_ylabel("avg_sentiment")
-        ax1.set_xlabel("genre")
-        ax1.set_facecolor("lightyellow")
-        ax1.set_ylim(0,1)
+            ax1.bar(genre, avg_sentiment, color="blueviolet", edgecolor ='red')
+            ax1.set_title("Average Sentiment per Category")
+            ax1.set_ylabel("avg_sentiment")
+            ax1.set_xlabel("genre")
+            ax1.set_facecolor("lightyellow")
+            ax1.set_ylim(0,1)
 
         #visual 2
-        critic, review_count = zip(*critic_data)
+        if critic_data:
 
-        ax2 = fig.add_subplot(gs[0,1])
-        ax2.clear()
+            critic, review_count = zip(*critic_data)
 
-        ax2.bar(critic, review_count, color="lawngreen", edgecolor ='orange')
-        ax2.set_title("Average Sentiment per Category")
-        ax2.set_ylabel("review_count")
-        ax2.set_xlabel("critic")
-        ax2.set_facecolor("lightyellow")
-        ax2.set_ylim(0,25)
+            ax2 = fig.add_subplot(gs[0,1])
+            ax2.clear()
+
+            ax2.bar(critic, review_count, color="lawngreen", edgecolor ='orange')
+            ax2.set_title("Number of Reviews per Critic")
+            ax2.set_ylabel("review_count")
+            ax2.set_xlabel("critic")
+            ax2.set_facecolor("lightyellow")
+            ax2.set_ylim(0,25)
 
         #visual 3
-        critic, timestamp, genre, sentiment  = zip(*tilly_data)
-        ax3 = fig.add_subplot(gs[1, :])
-        ax3.clear()
+        if tilly_data:
+
+            critic, timestamp, genre, sentiment  = zip(*tilly_data)
+            ax3 = fig.add_subplot(gs[1, :])
+            ax3.clear()
         
-        ax3.plot(timestamp, sentiment, marker ='o', linestyle = '-', color="lawngreen")
-        ax3.set_title("Tilly Action Sentiment")
-        ax3.set_ylabel("Sentiment")
-        ax3.set_xlabel("timestamp")
-        ax3.set_facecolor("lightyellow")
-        ax3.set_ylim(0,1)
+            ax3.plot(timestamp, sentiment, marker ='o', linestyle = '-', color="lawngreen")
+            ax3.set_title("Tilly Action Sentiment")
+            ax3.set_ylabel("Sentiment")
+            ax3.set_xlabel("timestamp")
+            ax3.set_facecolor("lightyellow")
+            ax3.set_ylim(0,1)
        
 
         

@@ -55,6 +55,7 @@ def init_db(db_path: pathlib.Path):
             logger.info("SUCCESS: Got a cursor to execute SQL.")
 
             cursor.execute("DROP TABLE IF EXISTS streamed_messages")
+            cursor.execute("DROP TABLE IF EXISTS tilly_sentiment")
 
             cursor.execute(
                 """
@@ -174,7 +175,7 @@ def insert_message(message: dict, db_path: pathlib.Path) -> None:
                     message["critic"],
                     message["timestamp"],
                     message["genre"],
-                    message["sentiment"],
+                    message["sentiment"]
                 ),
             )
             conn.commit()
