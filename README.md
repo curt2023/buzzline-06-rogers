@@ -95,16 +95,12 @@ Windows:
 ```shell
 .venv\Scripts\activate
 py -m consumers.kafka_consumer_rogers
-OR
-py -m consumers.file_consumer_rogers
 ```
 
 Mac/Linux:
 ```zsh
 source .venv/bin/activate
 python3 -m consumers.kafka_consumer_case
-OR
-python3 -m consumers.file_consumer_case
 ```
 
 ---
