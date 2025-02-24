@@ -29,8 +29,6 @@ import os
 import pathlib
 import sys
 import sqlite3
-import datetime
-import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib import colors as mcolors
